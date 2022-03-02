@@ -38,4 +38,15 @@
 		</plugins>
 	</build>
 
+
+	<distributionManagement>
+		<repository>
+		  <id>central</id>
+		  <url>https://rorymurphy.jfrog.io/artifactory/default-maven-virtual</url>
+		</repository>
+		<snapshotRepository>
+		  <id>snapshots</id>
+		  <url>https://rorymurphy.jfrog.io/artifactory/default-maven-virtual</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
