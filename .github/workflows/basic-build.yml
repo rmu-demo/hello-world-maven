@@ -17,3 +17,8 @@ jobs:
         run: mvn -B -DskipTests clean package
       - name: Test with Maven
         run: mvn test
+      - name: Upload Artifact
+      - uses: actions/upload-artifact@v2
+        with:
+          name: hello-world-maven
+          path: target/*-jar-with-dependencies.jar
