@@ -21,8 +21,22 @@ pipeline {
         }
 
         stage('Test') {
-            steps {
-                sh 'mvn test'
+            parallel {
+                stage('Part 1') {
+                    steps {
+                        sh 'mvn test'
+                    }
+                }
+                stage('Part 2') {
+                    steps {
+                        sh 'mvn test'
+                    }
+                }
+                stage('Part 3') {
+                    steps {
+                        sh 'mvn test'
+                    }
+                }
             }
         }
     }
