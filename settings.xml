@@ -6,11 +6,25 @@
       <username>${env.MAVEN_USERNAME}</username>
       <password>${env.MAVEN_PASSWORD}</password>
       <id>central</id>
+      <configuration>
+       <httpConfiguration>
+         <all>
+           <usePreemptive>true</usePreemptive>
+         </all>
+       </httpConfiguration>
+     </configuration>
     </server>
     <server>
       <username>${env.MAVEN_USERNAME}</username>
       <password>${env.MAVEN_PASSWORD}</password>
       <id>snapshots</id>
+      <configuration>
+       <httpConfiguration>
+         <all>
+           <usePreemptive>true</usePreemptive>
+         </all>
+       </httpConfiguration>
+     </configuration>
     </server>
   </servers>
   <profiles>
