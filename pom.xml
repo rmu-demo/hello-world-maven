@@ -62,13 +62,10 @@
 	</build>
 
 	<distributionManagement>
-		<repository>
-		  <id>central</id>
-		  <url>https://rorymurphy.jfrog.io/artifactory/default-maven-virtual</url>
-		</repository>
-		<snapshotRepository>
-		  <id>snapshots</id>
-		  <url>https://rorymurphy.jfrog.io/artifactory/default-maven-virtual</url>
-		</snapshotRepository>
+	    <snapshotRepository>
+	        <id>snapshots</id>
+	        <name>a0ycpopfqd1sk-artifactory-primary-0-snapshots</name>
+	        <url>https://rorymurphy2.jfrog.io/artifactory/libs-snapshot</url>
+	    </snapshotRepository>
 	</distributionManagement>
 </project>
