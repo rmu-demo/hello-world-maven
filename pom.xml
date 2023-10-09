@@ -40,15 +40,15 @@
 
 
 	<distributionManagement>
-		<repository>
-			<id>central</id>
-			<name>a0jjode3pvpnu-artifactory-primary-0-releases</name>
-			<url>https://rorymurphy.jfrog.io/artifactory/default-maven-virtual</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshots</id>
-			<name>a0jjode3pvpnu-artifactory-primary-0-snapshots</name>
-			<url>https://rorymurphy.jfrog.io/artifactory/default-maven-virtual</url>
-		</snapshotRepository>
+	    <repository>
+	        <id>central</id>
+	        <name>a0ycpopfqd1sk-artifactory-primary-0-releases</name>
+	        <url>https://rorymurphy2.jfrog.io/artifactory/libs-release</url>
+	    </repository>
+	    <snapshotRepository>
+	        <id>snapshots</id>
+	        <name>a0ycpopfqd1sk-artifactory-primary-0-snapshots</name>
+	        <url>https://rorymurphy2.jfrog.io/artifactory/libs-snapshot</url>
+	    </snapshotRepository>
 	</distributionManagement>
 </project>
